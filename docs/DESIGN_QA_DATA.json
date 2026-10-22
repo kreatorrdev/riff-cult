@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-20",
+  "revision": "02",
+  "initialHomeChecks": [
+    {
+      "broken": 0,
+      "direction": "cover-stories",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "broken": 0,
+      "direction": "cover-stories",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "broken": 0,
+      "direction": "cover-stories",
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "broken": 0,
+      "direction": "cover-stories",
+      "overflow": false,
+      "width": 1024
+    },
+    {
+      "broken": 0,
+      "direction": "cover-stories",
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "broken": 0,
+      "direction": "heavy-rotation",
+      "overflow": true,
+      "width": 320
+    },
+    {
+      "broken": 0,
+      "direction": "heavy-rotation",
+      "overflow": true,
+      "width": 390
+    },
+    {
+      "broken": 0,
+      "direction": "heavy-rotation",
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "broken": 0,
+      "direction": "heavy-rotation",
+      "overflow": false,
+      "width": 1024
+    },
+    {
+      "broken": 0,
+      "direction": "heavy-rotation",
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "broken": 0,
+      "direction": "sleeve-notes",
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "broken": 0,
+      "direction": "sleeve-notes",
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "broken": 0,
+      "direction": "sleeve-notes",
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "broken": 0,
+      "direction": "sleeve-notes",
+      "overflow": false,
+      "width": 1024
+    },
+    {
+      "broken": 0,
+      "direction": "sleeve-notes",
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "correctedHeavyRotationChecks": [
+    {
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "width": 390
+    }
+  ],
+  "representativePageChecks": [
+    {
+      "overflow": false,
+      "page": "long-album-title",
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "page": "long-album-title",
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "page": "long-album-title",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "page": "long-album-title",
+      "width": 1024
+    },
+    {
+      "overflow": false,
+      "page": "long-album-title",
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "page": "review",
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "page": "review",
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "page": "review",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "page": "review",
+      "width": 1024
+    },
+    {
+      "overflow": false,
+      "page": "review",
+      "width": 1440
+    }
+  ],
+  "interactionChecks": [
+    "Combined search/genre/country/year URL filters",
+    "Return from album preserves discovery query",
+    "Owned save survives page reload",
+    "Changing Owned to Wishlist keeps one entry",
+    "Grid and Shelf share the same entry",
+    "Removal and Undo restore prior status",
+    "Zero-result search guidance",
+    "All seven actual cover images loaded",
+    "Mobile menu opens and closes using Enter",
+    "Search dialog closes using Escape"
+  ],
+  "limits": [
+    "No production authentication or server-side collection exists",
+    "No automated assistive-technology audit",
+    "OS reduced-motion behavior and actual browser 200% zoom not exercised",
+    "No lab or field performance metrics claimed"
+  ]
+}

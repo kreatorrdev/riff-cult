@@ -1,0 +1,16 @@
+.data
+.env
+.env.*
+!.env.example
+.next
+node_modules
+tmp
+tests
+.git
+docs
+design
+test-results
+.sites-runtime
+*.tsbuildinfo
+Dockerfile
+compose.yaml

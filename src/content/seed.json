@@ -1,0 +1,272 @@
+{
+  "albums": [
+    {
+      "id": "black-metal",
+      "band": "Venom",
+      "title": "Black Metal",
+      "year": 1982,
+      "genre": "Black / Speed",
+      "country": "United Kingdom",
+      "cover": true,
+      "note": "A raw edge. A darker kind of momentum.",
+      "description": "A rougher listening route into the archive. Follow the title track’s attack, then listen for the way the rhythm section keeps the songs moving beneath the distortion. Black Metal brings a coarse, direct energy to this selection beside Slayer’s tightly wound attack.",
+      "source": "https://music.apple.com/us/album/black-metal/1436231855",
+      "tracks": [
+        "Black Metal",
+        "To Hell and Back",
+        "Buried Alive",
+        "Raise the Dead",
+        "Teacher's Pet",
+        "Leave Me In Hell",
+        "Sacrifice",
+        "Heaven's On Fire",
+        "Countess Bathory",
+        "Don't Burn the Witch",
+        "At War With Satan (Introduction)"
+      ]
+    },
+    {
+      "id": "seven-churches",
+      "band": "Possessed",
+      "title": "Seven Churches",
+      "year": 1985,
+      "genre": "Death / Thrash",
+      "country": "United States",
+      "cover": true,
+      "note": "A raw attack. The edge between speed and darkness.",
+      "description": "Seven Churches brings a raw death/thrash edge to the opening selection. Follow the guitar phrases through The Exorcist, then the shift in pressure as the record unfolds. Set beside Slayer and Venom, it offers another way into the darker end of the archive.",
+      "source": "https://music.apple.com/us/album/seven-churches/980777677",
+      "tracks": [
+        "The Exorcist",
+        "Pentagram",
+        "Burning In Hell",
+        "Evil Warriors",
+        "Seven Churches",
+        "Satan's Curse",
+        "Holy Hell",
+        "Twisted Minds",
+        "Fallen Angel",
+        "Death Metal"
+      ]
+    },
+    {
+      "id": "powerslave",
+      "band": "Iron Maiden",
+      "title": "Powerslave",
+      "year": 1984,
+      "genre": "Heavy",
+      "country": "United Kingdom",
+      "cover": true,
+      "note": "Galloping rhythms. A theatrical sense of scale.",
+      "description": "For a different kind of metal momentum, trade the clipped thrash attack for a galloping pulse and guitar lines that open out into melody. This is the heavy-metal branch of the sample archive: big arrangements without losing the push of a band playing together.",
+      "source": "https://www.ironmaiden.com/discography/studio-albums/",
+      "tracks": [
+        "Aces High (2015 Remaster)",
+        "2 Minutes to Midnight (2015 Remaster)",
+        "Losfer Words (Big 'Orra) [2015 Remaster]",
+        "Flash of the Blade (2015 Remaster)",
+        "The Duellists (2015 Remaster)",
+        "Back in the Village (2015 Remaster)",
+        "Powerslave (2015 Remaster)",
+        "Rime of the Ancient Mariner (2015 Remaster)"
+      ]
+    },
+    {
+      "id": "reign-in-blood",
+      "band": "Slayer",
+      "title": "Reign in Blood",
+      "year": 1986,
+      "genre": "Thrash",
+      "country": "United States",
+      "cover": true,
+      "note": "Relentless speed. Every riff cuts close.",
+      "description": "A concentrated burst of thrash at the front of the selection. Listen for the sharp changes between the guitar phrases, the sudden openings in the rhythm and the pressure that carries through to Raining Blood. Reign in Blood gives the archive a fierce point of entry.",
+      "source": "https://www.slayer.net/products/reign-in-blood",
+      "tracks": [
+        "Angel of Death",
+        "Piece by Piece",
+        "Necrophobic",
+        "Altar of Sacrifice",
+        "Jesus Saves",
+        "Criminally Insane",
+        "Reborn",
+        "Epidemic",
+        "Postmortem",
+        "Raining Blood"
+      ]
+    },
+    {
+      "id": "pleasure-to-kill",
+      "band": "Kreator",
+      "title": "Pleasure to Kill",
+      "year": 1986,
+      "genre": "Thrash",
+      "country": "Germany",
+      "cover": true,
+      "note": "Raw edges, restless drums, no soft landing.",
+      "description": "A rougher edge in the wider archive. The guitars scrape rather than shine, while the drums keep tugging at the seams. Place this record beside the current front-page selection for another approach to attack and tension.",
+      "source": "https://axis.wmg.com/h/sellsheets/ADA_92223_92923.pdf",
+      "tracks": [
+        "Choir of the Damned",
+        "Ripping Corpse",
+        "Death Is Your Saviour",
+        "Pleasure to Kill",
+        "Riot of Violence",
+        "The Pestilence",
+        "Carrion",
+        "Command of the Blade",
+        "Under the Guillotine"
+      ]
+    },
+    {
+      "id": "seventh-son-of-a-seventh-son",
+      "band": "Iron Maiden",
+      "title": "Seventh Son of a Seventh Son",
+      "year": 1988,
+      "genre": "Heavy",
+      "country": "United Kingdom",
+      "cover": true,
+      "note": "A wider canvas for melody and atmosphere.",
+      "description": "A second Iron Maiden entry makes room to explore how a band changes within the same archive. Move between this record and Powerslave to compare the sense of scale, the melodic shape and the use of atmosphere.",
+      "source": "https://www.ironmaiden.com/discography/studio-albums/",
+      "tracks": [
+        "Moonchild (2015 Remaster)",
+        "Infinite Dreams (2015 Remaster)",
+        "Can I Play With Madness (2015 Remaster)",
+        "The Evil That Men Do (2015 Remaster)",
+        "Seventh Son of a Seventh Son (2015 Remaster)",
+        "The Prophecy (2015 Remaster)",
+        "The Clairvoyant (2015 Remaster)",
+        "Only the Good Die Young (2015 Remaster)"
+      ]
+    },
+    {
+      "id": "agent-orange",
+      "band": "Sodom",
+      "title": "Agent Orange",
+      "year": 1989,
+      "genre": "Thrash",
+      "country": "Germany",
+      "cover": true,
+      "note": "A serrated riff. A relentless forward drive.",
+      "description": "Follow the guitar through the hard turns of the title track, then stay with the rhythm section as the momentum shifts. Agent Orange adds another German thrash voice to the archive beside Kreator, with a different balance of drive and abrasion.",
+      "source": "https://music.apple.com/us/album/agent-orange/1675512622",
+      "tracks": [
+        "Agent Orange",
+        "Tired and Red",
+        "Incest",
+        "Remember the Fallen",
+        "Magic Dragon",
+        "Exhibition Bout",
+        "Ausgebombt",
+        "Baptism of Fire",
+        "Don't Walk Away (Cover Version)"
+      ]
+    },
+    {
+      "id": "coma-of-souls",
+      "band": "Kreator",
+      "title": "Coma of Souls",
+      "year": 1990,
+      "genre": "Thrash",
+      "country": "Germany",
+      "cover": true,
+      "note": "Sharp turns, darker melodies, no wasted motion.",
+      "description": "A second point of entry into Kreator. Place Coma of Souls beside Pleasure to Kill and follow how the guitar lines open out without losing their bite. This pairing makes room for a closer listen to attack, melody and arrangement.",
+      "source": "https://music.apple.com/us/album/coma-of-souls/1439115702",
+      "tracks": [
+        "When the Sun Burns Red (2018 - Remaster)",
+        "Coma of Souls (2018 - Remaster)",
+        "People of the Lie (2018 - Remaster)",
+        "World Beyond (2018 - Remaster)",
+        "Terror Zone (2018 - Remaster)",
+        "Agents of Brutality (2018 - Remaster)",
+        "Material World Paranoia (2018 - Remaster)",
+        "Twisted Urges (2018 - Remaster)",
+        "Hidden Dictator (2018 - Remaster)",
+        "Mental Slavery (2018 - Remaster)"
+      ]
+    },
+    {
+      "id": "kill",
+      "band": "Cannibal Corpse",
+      "title": "Kill",
+      "year": 2006,
+      "genre": "Death",
+      "country": "United States",
+      "cover": true,
+      "note": "Dense rhythms. A direct, unyielding attack.",
+      "description": "The death-metal branch of the expanded selection. Listen beneath the vocal attack for the tightly interlocked guitar and drum patterns. Kill brings a different kind of density to a shelf that moves between thrash, black metal and orchestral scale.",
+      "source": "https://music.apple.com/us/album/kill/129322268",
+      "tracks": [
+        "The Time to Kill Is Now",
+        "Make Them Suffer",
+        "Murder Worship",
+        "Necrosadistic Warning",
+        "Five Nails Through the Neck",
+        "Purification By Fire",
+        "Death Walking Terror",
+        "Barbaric Bludgeonings",
+        "The Discipline of Revenge",
+        "Brain Removal Device",
+        "Maniacal",
+        "Submerged In Boiling Flesh",
+        "Infinite Misery"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "after-dark",
+      "type": "The listening list",
+      "title": "Metal, after dark.",
+      "deck": "Slayer. Venom. Possessed. Three records, three different shades of darkness.",
+      "minutes": "2 min read",
+      "album": "reign-in-blood",
+      "paragraphs": [
+        "Darkness in metal is not one sound. It can live in a tightly wound riff, a ragged guitar attack or a dense arrangement that seems to close in around the listener. These three records make a route through those different kinds of pressure.",
+        "Start with Slayer’s Reign in Blood. Follow the sharp turns between phrases and notice how the rhythm section keeps the attack together. Return to Raining Blood at the end of the sequence and listen for the change in weight before the band drives forward again.",
+        "Move to Venom’s Black Metal for a different edge. Follow the rhythm underneath the rough guitar sound, then hear how the vocal attack changes the shape of a phrase. Placed after Slayer, the contrast is as useful as the shared sense of menace.",
+        "Finish with Possessed’s Seven Churches. Its raw death/thrash attack brings another texture into the selection. Follow the changes in pressure between the guitar phrases, then listen to how the rhythm section carries the sequence toward Death Metal.",
+        "Keep the three together as a listening sequence rather than a ranking. Slayer, Venom and Possessed offer different ways to build intensity; the changes between them are part of the point."
+      ]
+    },
+    {
+      "id": "black-metal",
+      "type": "Record reassessed",
+      "title": "The raw edge.",
+      "deck": "Venom’s Black Metal, and the pull of an unpolished attack.",
+      "minutes": "2 min read",
+      "album": "black-metal",
+      "paragraphs": [
+        "A rough sound can be an invitation to listen closer. On Black Metal, follow the pulse before following the distortion. The rhythm gives the attack its shape, and the friction around it becomes part of the record’s character.",
+        "The title track makes a direct point of entry. Listen to the way the guitar and vocal phrases pull against the beat, then return to the rhythm section. A busy surface does not mean that every part is trying to do the same thing.",
+        "Place the record beside Reign in Blood in the current selection. Slayer’s tightly wound attack makes Venom’s coarse momentum easier to hear. The comparison is about different choices in attack and atmosphere, rather than a contest of speed.",
+        "Let a second listen follow a different instrument. A collection becomes more useful when records can be revisited from another angle, and this is a good place to practice that habit."
+      ]
+    },
+    {
+      "id": "seven-churches",
+      "type": "Record reassessed",
+      "title": "At the edge of the abyss.",
+      "deck": "Possessed’s Seven Churches, and the tension between speed and weight.",
+      "minutes": "2 min read",
+      "album": "seven-churches",
+      "paragraphs": [
+        "Seven Churches makes a useful third voice beside Slayer and Venom. Listen first for the shape of a guitar phrase, then for the weight of the rhythm underneath it. The rough surface is only one part of the picture.",
+        "The Exorcist opens a route into the record. Let one listen follow the guitar and another follow the drums. A change in emphasis can reveal a different sense of momentum without changing the music itself.",
+        "The title track provides another point of entry. Hear it in sequence, then return to the opening track and notice which details have become easier to follow. Whole records reward that kind of return visit.",
+        "Keep Seven Churches in conversation with the other two records in the opening selection. Their different attacks give the same listening session room to move: a sharp turn, a coarse edge, another shade of darkness."
+      ]
+    }
+  ],
+  "bandIntroductions": {
+    "Venom": "A coarse guitar sound, a direct rhythmic pulse and a voice that cuts across the beat. Venom opens the rawer British branch of this archive. Start with Black Metal, then compare its rough edges with the tighter thrash arrangements nearby.",
+    "Iron Maiden": "A galloping pulse, melodic guitar lines and arrangements with a sense of scale. The two Iron Maiden records in this archive make a useful pairing: move between Powerslave and Seventh Son of a Seventh Son to hear how atmosphere changes the shape of the music.",
+    "Slayer": "Thrash built around sharp turns, concentrated attack and a rhythm section that keeps every phrase under pressure. Reign in Blood leads this archive’s Slayer selection. Follow the guitar changes, then let the drums guide a second listen.",
+    "Kreator": "Two records, two angles on German thrash. Pleasure to Kill supplies the rougher edge, while Coma of Souls opens more space for the guitar lines. Listen across the pair for the relationship between abrasion, melody and forward drive.",
+    "Sodom": "A serrated guitar attack and a rhythm section that keeps pushing forward. Sodom adds another voice to the German thrash selection. Agent Orange sits beside Kreator as an invitation to compare the feel of the riffs rather than simply the pace.",
+    "Cannibal Corpse": "Dense, interlocking rhythms and a vocal attack that sits deep in the arrangement. Cannibal Corpse anchors the death-metal branch of the expanded selection. Start with Kill and follow the drum patterns beneath the guitar sound.",
+    "Possessed": "A raw guitar attack and a darker rhythmic weight. Possessed brings death and thrash into the same conversation through Seven Churches. Start with The Exorcist, follow the changes in pressure, then hear the record beside Slayer and Venom."
+  }
+}

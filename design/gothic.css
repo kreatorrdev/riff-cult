@@ -1,0 +1,235 @@
+@font-face{font-family:GrenzeGotisch;src:url('assets/fonts/grenze-gotisch-variable.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap}
+/* Revision 03: an original Gothic atmosphere with the editorial structure of
+   Sleeve Notes and the unobscured artwork presentation of Cover Stories. */
+.ambient-scene{display:none}
+.article-album-strip{grid-template-columns:repeat(3,minmax(0,1fr))}
+body[data-direction=gothic-editorial]{--display:GrenzeGotisch,Georgia,serif;--page:#101318;--raised:#1b2027;--ink:#e8e2d6;--muted:#c1bcb5;--rule:#62646a;--signal:#eaa18b;background:var(--page);isolation:isolate}
+[data-direction=gothic-editorial] #app{position:relative;z-index:1}
+[data-direction=gothic-editorial] .ambient-scene{display:block;position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;background:#0e131b;contain:strict}
+.ambient-scene>div{position:absolute;pointer-events:none}
+[data-direction=gothic-editorial] .scene-art{inset:-2%;background-image:url('assets/gothic-abbey.png');background-size:cover;background-position:50% 45%;transform:scale(1.015);animation:abbey-drift 52s ease-in-out infinite alternate;animation-play-state:paused}
+.scene-shade{inset:0;background:linear-gradient(180deg,#080c1494 0%,#0a0e1826 30%,#0b0d146b 75%,#101318bd 100%),linear-gradient(90deg,#080b13a6 0%,#080b135c 30%,#080b1314 55%,#080b134d 100%)}
+.scene-moonlight{inset:-10%;background:radial-gradient(ellipse at 47% 10%,#cbd8f02b,transparent 42%);opacity:.45;animation:moonlight-breathe 17s ease-in-out infinite alternate;animation-play-state:paused}
+.scene-fog{inset:25% -20% -12%;background:radial-gradient(ellipse at 21% 71%,#c5d0e32b,transparent 35%),radial-gradient(ellipse at 63% 66%,#bcc4d126,transparent 27%),radial-gradient(ellipse at 95% 60%,#b2bcd71f,transparent 36%);opacity:.65;transform:translateX(-3%);animation:fog-drift 34s ease-in-out infinite alternate;animation-play-state:paused}
+.scene-fog-near{inset:45% -25% -25%;opacity:.38;animation-name:fog-near-drift;animation-duration:46s;animation-delay:-14s;filter:blur(8px)}
+[data-direction=gothic-editorial][data-motion=moving] .scene-art,[data-direction=gothic-editorial][data-motion=moving] .scene-moonlight,[data-direction=gothic-editorial][data-motion=moving] .scene-fog{animation-play-state:running}
+@keyframes abbey-drift{from{transform:scale(1.015) translate3d(0,0,0)}to{transform:scale(1.04) translate3d(-.5%,-.3%,0)}}
+@keyframes fog-drift{from{transform:translate3d(-3%,1%,0);opacity:.5}to{transform:translate3d(4%,-1%,0);opacity:.75}}
+@keyframes fog-near-drift{from{transform:translate3d(4%,0,0);opacity:.28}to{transform:translate3d(-4%,-2%,0);opacity:.45}}
+@keyframes moonlight-breathe{from{opacity:.3}to{opacity:.62}}
+.combined-design-bar{min-height:54px;background:#101318f2;border-bottom-color:#454950;gap:25px;backdrop-filter:blur(12px)}
+.combined-label{margin-inline:auto;font:10px var(--mono);letter-spacing:.09em;display:flex;align-items:center;gap:14px}
+.combined-label>span{font-size:9px;border:1px solid #62646a;padding:4px 7px;color:var(--ash);letter-spacing:.02em}
+.combined-utilities{display:flex;align-items:center;gap:25px}
+.combined-design-bar .compare-link{font-size:10px;gap:12px}
+.atmosphere-control{display:flex;align-items:center;gap:8px;min-height:44px;font:10px var(--body);border:0;padding-inline:8px;color:var(--bone)}
+.motion-icon{font-size:11px;min-width:12px;line-height:1}
+.atmosphere-control:hover{background:#e8e2d610}
+.atmosphere-control:disabled{cursor:default;color:#c1bcb5}
+[data-direction=gothic-editorial] .site-header .utility{font-size:9px;padding-block:13px;border-color:#8b8d965c;color:#cdc7bf}
+[data-direction=gothic-editorial] .identity{min-height:112px}
+[data-direction=gothic-editorial] .wordmark{font-size:78px;gap:16px;letter-spacing:-.045em}
+[data-direction=gothic-editorial] .brand-star{font-size:43px;color:var(--signal)}
+[data-direction=gothic-editorial] .identity-note{font-size:12px;color:#d0c9bf}
+[data-direction=gothic-editorial] .identity-edition{font-size:8px;color:#d0c9bf}
+[data-direction=gothic-editorial] .nav-row{border-color:#8b8d9666;min-height:57px;background:#0d11194a}
+[data-direction=gothic-editorial] .nav-row nav a{font-size:13px;min-height:56px}
+[data-direction=gothic-editorial] .nav-row nav a[aria-current=page]:after{height:2px;background:var(--signal)}
+[data-direction=gothic-editorial] .search-trigger{color:#d0c9bf;padding-right:8px}
+[data-direction=gothic-editorial] .vault-count{border-color:#82848c;color:#ded6c9}
+.gothic-hero{position:relative;display:grid;grid-template-columns:.9fr 1.15fr;gap:60px;align-items:center;min-height:610px;padding-block:44px 56px}
+.gothic-lead{padding-block:15px;position:relative}
+.gothic-lead:before{content:'';position:absolute;inset:-25px -20px -20px -35px;background:radial-gradient(ellipse at 30% 50%,#070b12b8 12%,#070b1200 74%);z-index:-1;pointer-events:none}
+.gothic-lead>.eyebrow{display:flex;align-items:center;gap:11px;color:#e0d5c6;font-size:10px;letter-spacing:.12em;margin-bottom:27px}
+.chapter-mark{height:6px;width:6px;background:var(--signal);display:inline-block;transform:rotate(45deg)}
+.gothic-lead h1{font-size:clamp(70px,6.5vw,96px);line-height:.96;letter-spacing:-.025em;font-weight:650;color:#f1eadd;text-shadow:0 3px 20px #0008}
+.gothic-lead h1 span{color:#eaa18b}
+.gothic-deck{color:#e1dbd2;font:17px/1.75 var(--body);margin-top:25px;max-width:400px;text-shadow:0 2px 8px #000}
+.gothic-actions{display:flex;align-items:flex-start;gap:18px;flex-direction:column;margin-top:28px}
+.gothic-actions .button{background:#7e2832;border-color:#b95c61;color:#f1eadd;font-size:13px;gap:45px;box-shadow:0 5px 20px #0003}
+.gothic-actions .button:hover{background:#933440}
+.gothic-actions .inline-link{border:0;color:#e1dbd2;font-size:12px;min-height:34px;gap:24px}
+.gothic-actions .inline-link:hover{color:var(--signal)}
+.gothic-folio{display:flex;flex-direction:column;gap:7px;font:8px/1.5 var(--mono);color:#c5bdb2;letter-spacing:.08em;border-top:1px solid #8b8d965c;padding-top:20px;margin-top:28px;max-width:350px}
+.gothic-folio>span:last-child{font-size:7px;letter-spacing:.06em}
+.gothic-records{display:grid;grid-template-columns:minmax(0,1fr) minmax(105px,.39fr);gap:25px;align-items:center;padding-top:6px}
+.gothic-featured-record{min-width:0}
+.gothic-featured-record>.eyebrow{font-size:9px;letter-spacing:.12em;margin-bottom:16px;color:#e7dfd1}
+.gothic-main-sleeve{display:block;background:#10151a66;padding:0;border:1px solid #a9a29566;box-shadow:0 10px 40px #0009;position:relative;transition:transform 220ms ease-out}
+.gothic-main-sleeve .cover{aspect-ratio:1;object-fit:contain;width:100%;filter:none;opacity:1}
+.gothic-main-sleeve:hover,.gothic-main-sleeve:focus-visible{transform:translateY(-5px)}
+.gothic-record-caption{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:0;background:#0e121bd9;border:1px solid #9b9aa033;border-top:0;padding:15px 14px 14px;min-height:68px}
+.gothic-record-caption small{font:9px var(--mono);letter-spacing:.1em;color:#d6cfc2;display:block;margin-bottom:5px}
+.gothic-record-caption strong{font:27px/1 var(--display);letter-spacing:-.01em;color:var(--bone)}
+.gothic-record-caption>span:last-child{font-size:25px;color:var(--signal)}
+.gothic-desk-records{display:flex;flex-direction:column;gap:19px;align-items:stretch;border-left:1px solid #8b8d9666;padding-left:22px;padding-top:4px}
+.gothic-desk-records>.eyebrow{font-size:8px;letter-spacing:.06em;color:#e7dfd1}
+.gothic-desk-records>a{display:block;min-width:0}
+.gothic-desk-records .cover{width:100%;aspect-ratio:1;object-fit:contain;box-shadow:0 5px 20px #0008;transition:transform 220ms ease-out}
+.gothic-desk-records a:hover .cover,.gothic-desk-records a:focus-visible .cover{transform:translateY(-4px)}
+.gothic-desk-records>a>span{display:block;margin-top:10px;background:#0e121bc9;padding:7px 8px}
+.gothic-desk-records small{display:block;font:8px var(--mono);text-transform:uppercase;letter-spacing:.03em;margin-bottom:4px;color:#d6cfc2}
+.gothic-desk-records strong{display:block;font:19px/1.05 var(--display);color:var(--bone)}
+.gothic-scene-caption{position:absolute;bottom:17px;right:0;font:7px var(--mono);letter-spacing:.12em;color:#c5bdb2}
+[data-direction=gothic-editorial] .issue-strip{background:#10141cf0;border-color:#6c6d725e;color:#e8e2d6}
+[data-direction=gothic-editorial] .issue-strip .container>span:not(.eyebrow){color:var(--signal)}
+[data-direction=gothic-editorial] .record-section{background:#0c111ba8;color:#e8e2d6;--muted:#c1bcb5;--rule:#6b6d747a;padding-top:48px;border-block:1px solid #8b8d9659}
+[data-direction=gothic-editorial] .record-section .quick-save.is-saved{color:var(--signal)}
+[data-direction=gothic-editorial] .home-albums{row-gap:42px}
+[data-direction=gothic-editorial] .record-section .album-art-link .cover{box-shadow:0 6px 18px #0005}
+[data-direction=gothic-editorial] .record-section .inline-link:hover{color:var(--signal)}
+[data-direction=gothic-editorial] .writing-section{background:#0e12199e;border:1px solid #77798059;padding:40px;margin-top:45px;margin-bottom:45px}
+[data-direction=gothic-editorial] .feature-review .review-art{box-shadow:0 5px 20px #0004}
+[data-direction=gothic-editorial] .genre-section{background:#0e121994;border:1px solid #77798059;padding:25px 30px;margin-bottom:45px}
+[data-direction=gothic-editorial] .genre-links{margin-bottom:0;border-bottom:0}
+[data-direction=gothic-editorial] .vault-invitation{background:#381b269e;border:1px solid #c07e7d75}
+[data-direction=gothic-editorial] .site-footer{background:#0d1118a6;padding-inline:30px;border:1px solid #77798059}
+[data-direction=gothic-editorial][data-page=inner] main{background:#0e1219c4;padding-top:10px;padding-bottom:20px;margin-bottom:25px}
+[data-direction=gothic-editorial] .wordmark,[data-direction=gothic-editorial] .footer-wordmark{letter-spacing:-.02em;font-weight:700}
+[data-direction=gothic-editorial] h1,[data-direction=gothic-editorial] h2,[data-direction=gothic-editorial] h3{line-height:1.06;letter-spacing:-.018em}
+[data-direction=gothic-editorial] .album-card h3{font-size:26px}
+[data-direction=gothic-editorial] .section-heading h2{text-transform:none;font-size:39px}
+[data-direction=gothic-editorial] input,[data-direction=gothic-editorial] select{background:#20262f;color:var(--bone)}
+[data-direction=gothic-editorial] dialog{background:#131820;--muted:#c1bcb5}
+[data-direction=gothic-editorial] .reading-aside,[data-direction=gothic-editorial] .empty-state{background:#151b23b3}
+[data-direction=gothic-editorial] .button-paper{background:#14192394;color:var(--bone);border-color:#aaa29699}
+[data-direction=gothic-editorial] .button-paper:hover{background:#28313eee;color:var(--bone)}
+[data-direction=gothic-editorial] .view-tabs .active{background:#7e2832e6;color:#f1eadd}
+[data-direction=gothic-editorial] #toast{background:#1a202cf2;color:var(--bone);border:1px solid #6b6d74;border-left:4px solid #bd777a}
+.latest-study{padding:35px;border:1px solid var(--rule);margin-top:35px;background:var(--raised)}
+.latest-study>.eyebrow{margin-bottom:17px}
+.latest-study h2{font-size:56px}
+.latest-study p{font-size:16px;color:var(--muted);max-width:650px;margin-block:20px}
+@media(max-width:1150px){
+ .gothic-hero{grid-template-columns:.9fr 1.15fr;gap:35px;min-height:570px;padding-block:36px 48px}
+ .gothic-lead h1{font-size:85px}
+ .gothic-deck{font-size:15px}
+ .gothic-records{gap:18px;grid-template-columns:minmax(0,1fr) minmax(95px,.4fr)}
+ .gothic-desk-records{padding-left:16px;gap:16px}
+ .gothic-record-caption strong{font-size:25px}
+ .gothic-desk-records strong{font-size:17px}
+ .combined-utilities{gap:14px}
+}
+@media(max-width:850px){
+ .combined-design-bar{flex-wrap:nowrap;min-height:54px;gap:18px;padding-block:5px}
+ .combined-design-bar .lab-brand{font-size:8px;min-height:44px}
+ .combined-label{font-size:9px;letter-spacing:.05em;gap:8px}
+ .combined-label>span{font-size:8px}
+ .combined-design-bar .compare-link{display:none}
+ .combined-utilities{margin-left:auto}
+ .atmosphere-control{font-size:10px;white-space:nowrap}
+ [data-direction=gothic-editorial] .identity{min-height:100px}
+ [data-direction=gothic-editorial] .wordmark{font-size:72px}
+ [data-direction=gothic-editorial] .identity-note{display:none}
+ .gothic-hero{grid-template-columns:1fr 1.05fr;gap:25px;min-height:530px;padding-block:36px 45px}
+ .gothic-lead h1{font-size:70px}
+ .gothic-lead>.eyebrow{font-size:8px;letter-spacing:.05em;margin-bottom:24px}
+ .gothic-deck{font-size:14px;margin-top:20px}
+ .gothic-actions{margin-top:23px;gap:14px}
+ .gothic-actions .button{font-size:12px;gap:25px;padding-inline:18px}
+ .gothic-actions .inline-link{font-size:11px;gap:18px}
+ .gothic-folio{font-size:7px;margin-top:22px;padding-top:18px}
+ .gothic-folio>span:last-child{font-size:6px}
+ .gothic-records{grid-template-columns:minmax(0,1fr) minmax(80px,.4fr);gap:15px}
+ .gothic-main-sleeve{padding:0}
+ .gothic-featured-record>.eyebrow{font-size:8px;margin-bottom:13px}
+ .gothic-record-caption{padding:12px 10px;gap:10px;min-height:60px}
+ .gothic-record-caption strong{font-size:23px}
+ .gothic-record-caption small{font-size:8px}
+ .gothic-desk-records{padding-left:13px;gap:13px}
+ .gothic-desk-records>.eyebrow{font-size:7px;letter-spacing:.02em}
+ .gothic-desk-records>a>span{padding:6px;margin-top:7px}
+ .gothic-desk-records small{font-size:7px}
+ .gothic-desk-records strong{font-size:15px}
+ [data-direction=gothic-editorial] .writing-section{padding:30px}
+ [data-direction=gothic-editorial] .genre-section{padding:25px}
+}
+@media(max-width:600px){
+ .article-album-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .combined-design-bar{min-height:75px;display:grid;grid-template-columns:1fr auto;gap:0 12px;padding:5px 13px}
+ .combined-design-bar .lab-brand{font-size:7px;min-height:26px;grid-column:1}
+ .combined-design-bar .lab-version{display:inline;font-size:7px}
+ .combined-label{font-size:9px;letter-spacing:.06em;gap:9px;min-height:28px;grid-row:2;grid-column:1;margin:0}
+ .combined-label>span{font-size:7px;padding:3px 6px}
+ .combined-utilities{grid-column:2;grid-row:1/3;align-self:center}
+ .atmosphere-control{font-size:10px;min-height:44px;gap:7px;padding-inline:6px}
+ [data-direction=gothic-editorial] .site-header .utility{font-size:7px;padding-block:12px;letter-spacing:.02em}
+ [data-direction=gothic-editorial] .identity{min-height:87px}
+ [data-direction=gothic-editorial] .wordmark{font-size:64px;gap:12px}
+ [data-direction=gothic-editorial] .brand-star{font-size:35px}
+ [data-direction=gothic-editorial] .identity-edition{display:none}
+ [data-direction=gothic-editorial] .nav-row{min-height:50px}
+ [data-direction=gothic-editorial] .nav-row nav{top:49px;background:#131820;border-color:#62646a}
+ [data-direction=gothic-editorial] .nav-row nav a{font-size:14px;min-height:48px}
+ [data-direction=gothic-editorial] .search-trigger{font-size:11px;padding-right:0}
+ [data-direction=gothic-editorial] .scene-art{background-position:48% 15%;inset:-1%;background-size:auto 100%;animation-name:abbey-drift}
+ .scene-shade{background:linear-gradient(180deg,#080c1480 0%,#0a0e1840 24%,#0b0d1473 65%,#101318e8 100%),linear-gradient(90deg,#080b1373 0%,#080b131a 50%,#080b135c 100%)}
+ .scene-fog-near{filter:none}
+ .gothic-hero{display:flex;flex-direction:column;gap:0;align-items:stretch;min-height:0;padding-block:27px 24px}
+ .gothic-lead{display:contents}
+ .gothic-lead:before{display:none}
+ .gothic-lead>.eyebrow{order:0;font-size:8px;letter-spacing:.09em;margin-bottom:17px;background:#0b0e1566;align-self:flex-start;padding:4px 7px}
+ .gothic-lead h1{order:1;font-size:clamp(54px,15.3vw,82px);line-height:.9;max-width:100%;margin-bottom:25px}
+ .gothic-records{order:2;grid-template-columns:minmax(0,1fr) minmax(85px,.42fr);gap:19px;align-items:center;padding-top:0}
+ .gothic-featured-record>.eyebrow{font-size:7px;letter-spacing:.09em;margin-bottom:11px}
+ .gothic-main-sleeve{padding:0}
+ .gothic-record-caption{padding:12px 11px;min-height:61px}
+ .gothic-record-caption small{font-size:8px}
+ .gothic-record-caption strong{font-size:24px}
+ .gothic-record-caption>span:last-child{font-size:22px}
+ .gothic-desk-records{padding-left:14px;gap:15px}
+ .gothic-desk-records>.eyebrow{font-size:7px;letter-spacing:.02em}
+ .gothic-desk-records>a>span{padding:7px;margin-top:8px}
+ .gothic-desk-records small{font-size:7px}
+ .gothic-desk-records strong{font-size:17px}
+ .gothic-deck{order:3;font-size:16px;line-height:1.7;margin-top:27px;max-width:100%;background:#0c1018b8;padding:15px 16px}
+ .gothic-actions{order:4;flex-direction:row;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:20px}
+ .gothic-actions .button{font-size:12px;gap:29px;min-height:48px;padding-inline:18px}
+ .gothic-actions .inline-link{font-size:12px;min-height:44px;gap:20px}
+ .gothic-folio{order:5;margin-top:24px;padding-top:17px;max-width:100%;font-size:7px}
+ .gothic-folio>span:last-child{font-size:7px}
+ .gothic-scene-caption{order:6;position:static;font-size:6px;line-height:1.5;letter-spacing:.07em;margin-top:15px}
+ [data-direction=gothic-editorial] .record-section{padding-top:32px}
+ [data-direction=gothic-editorial] .record-section .section-heading h2{font-size:37px}
+ [data-direction=gothic-editorial] .writing-section{padding:24px 20px;margin-block:30px}
+ [data-direction=gothic-editorial] .writing-section .section-heading h2{font-size:33px}
+ [data-direction=gothic-editorial] .story-grid{grid-template-columns:1fr}
+ [data-direction=gothic-editorial] .feature-review{grid-template-columns:1fr 1fr;gap:16px}
+ [data-direction=gothic-editorial] .feature-review h3{font-size:33px}
+ [data-direction=gothic-editorial] .feature-review .eyebrow{font-size:7px}
+ [data-direction=gothic-editorial] .feature-review p{font-size:12px}
+ [data-direction=gothic-editorial] .feature-review .inline-link{font-size:10px;gap:12px}
+ [data-direction=gothic-editorial] .short-stories{gap:18px}
+ [data-direction=gothic-editorial] .short-stories h3{font-size:26px}
+ [data-direction=gothic-editorial] .short-stories article+article{padding-left:17px}
+ [data-direction=gothic-editorial] .genre-section{padding:22px;margin-bottom:30px}
+ [data-direction=gothic-editorial] .vault-invitation{margin-bottom:30px}
+ [data-direction=gothic-editorial] .site-footer{padding:25px 20px}
+ [data-direction=gothic-editorial][data-page=inner] main{padding-top:18px;margin-bottom:20px}
+ .latest-study{padding:25px;margin-top:25px}
+ .latest-study h2{font-size:46px}
+ .latest-study p{font-size:15px}
+ .latest-study .button{font-size:12px;gap:25px}
+}
+@media(max-width:360px){
+ .combined-label{font-size:8px;gap:6px}
+ .combined-design-bar{gap:0 7px;padding-inline:10px}
+ .atmosphere-control{font-size:9px;padding-inline:3px;gap:5px}
+ [data-direction=gothic-editorial] .wordmark{font-size:58px}
+ .gothic-lead h1{font-size:53px}
+ .gothic-records{gap:13px;grid-template-columns:minmax(0,1fr) minmax(78px,.43fr)}
+ .gothic-desk-records{padding-left:10px;gap:12px}
+ .gothic-desk-records strong{font-size:15px}
+ .gothic-record-caption{padding:10px 9px;gap:8px}
+ .gothic-record-caption strong{font-size:22px}
+ [data-direction=gothic-editorial] .feature-review{grid-template-columns:1fr}
+ [data-direction=gothic-editorial] .feature-review h3{font-size:44px}
+ [data-direction=gothic-editorial] .feature-review p{font-size:14px}
+ [data-direction=gothic-editorial] .short-stories{grid-template-columns:1fr;gap:22px}
+ [data-direction=gothic-editorial] .short-stories article+article{border-left:0;border-top:1px solid var(--rule);padding-left:0;padding-top:22px}
+ [data-direction=gothic-editorial] .short-stories h3{font-size:35px}
+}
+@media(prefers-reduced-motion:reduce){
+ .ambient-scene>div{animation:none!important;transform:none!important}
+ .gothic-main-sleeve:hover,.gothic-main-sleeve:focus-visible,.gothic-desk-records a:hover .cover,.gothic-desk-records a:focus-visible .cover{transform:none!important}
+}

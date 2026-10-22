@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-22",
+  "manualControls": [
+    "next",
+    "previous",
+    "direct selection",
+    "keyboard wrap"
+  ],
+  "automaticProgressionObserved": true,
+  "motionPreferencePauses": true,
+  "responsive": [
+    {
+      "covers": [
+        {
+          "alt": "Slayer — Reign in Blood album cover",
+          "loaded": true,
+          "width": 97
+        },
+        {
+          "alt": "Venom — Black Metal album cover",
+          "loaded": true,
+          "width": 83
+        },
+        {
+          "alt": "Possessed — Seven Churches album cover",
+          "loaded": true,
+          "width": 83
+        }
+      ],
+      "overflow": false,
+      "pageWidth": 305,
+      "retiredContent": false,
+      "width": 320
+    },
+    {
+      "covers": [
+        {
+          "alt": "Slayer — Reign in Blood album cover",
+          "loaded": true,
+          "width": 121
+        },
+        {
+          "alt": "Venom — Black Metal album cover",
+          "loaded": true,
+          "width": 104
+        },
+        {
+          "alt": "Possessed — Seven Churches album cover",
+          "loaded": true,
+          "width": 104
+        }
+      ],
+      "overflow": false,
+      "pageWidth": 375,
+      "retiredContent": false,
+      "width": 390
+    },
+    {
+      "covers": [
+        {
+          "alt": "Slayer — Reign in Blood album cover",
+          "loaded": true,
+          "width": 164
+        },
+        {
+          "alt": "Venom — Black Metal album cover",
+          "loaded": true,
+          "width": 141
+        },
+        {
+          "alt": "Possessed — Seven Churches album cover",
+          "loaded": true,
+          "width": 141
+        }
+      ],
+      "overflow": false,
+      "pageWidth": 753,
+      "retiredContent": false,
+      "width": 768
+    }
+  ],
+  "production": {
+    "url": "https://riff-cult.vercel.app/",
+    "before": "Feature Slayer — Reign in Blood",
+    "after": "Feature Possessed — Seven Churches",
+    "automaticProgressionObserved": true,
+    "consoleWarningsOrErrors": []
+  }
+}

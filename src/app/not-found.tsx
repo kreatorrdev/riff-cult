@@ -1,0 +1,1 @@
+export default function NotFound(){return <section className="container empty-state"><span className="eyebrow">404 / Off the record</span><h1>THAT SIDE IS BLANK.</h1><p>This page is not in the archive. There is always another record worth finding.</p><a className="button button-red" href="/albums">Back to the records →</a></section>;}

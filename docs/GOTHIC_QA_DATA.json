@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-20",
+  "revision": "03",
+  "currentHomeChecks": [
+    {
+      "coverFilter": [
+        "none",
+        "none",
+        "none"
+      ],
+      "font": "GrenzeGotisch, Georgia, serif",
+      "overflow": false,
+      "recordBackground": "rgba(12, 17, 27, 0.66)",
+      "width": 320
+    },
+    {
+      "coverFilter": [
+        "none",
+        "none",
+        "none"
+      ],
+      "font": "GrenzeGotisch, Georgia, serif",
+      "overflow": false,
+      "recordBackground": "rgba(12, 17, 27, 0.66)",
+      "width": 390
+    },
+    {
+      "coverFilter": [
+        "none",
+        "none",
+        "none"
+      ],
+      "font": "GrenzeGotisch, Georgia, serif",
+      "overflow": false,
+      "recordBackground": "rgba(12, 17, 27, 0.66)",
+      "width": 768
+    },
+    {
+      "coverFilter": [
+        "none",
+        "none",
+        "none"
+      ],
+      "font": "GrenzeGotisch, Georgia, serif",
+      "overflow": false,
+      "recordBackground": "rgba(12, 17, 27, 0.66)",
+      "width": 1024
+    },
+    {
+      "coverFilter": [
+        "none",
+        "none",
+        "none"
+      ],
+      "font": "GrenzeGotisch, Georgia, serif",
+      "overflow": false,
+      "recordBackground": "rgba(12, 17, 27, 0.66)",
+      "width": 1440
+    }
+  ],
+  "earlierGallerySizingChecks": [
+    {
+      "covers": [
+        {
+          "alt": "Slayer — South of Heaven album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 172,
+          "loaded": true,
+          "width": 172
+        },
+        {
+          "alt": "Metallica — Ride the Lightning album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 67,
+          "loaded": true,
+          "width": 67
+        },
+        {
+          "alt": "Megadeth — Rust in Peace album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 67,
+          "loaded": true,
+          "width": 67
+        }
+      ],
+      "overflow": false,
+      "title": "THRASH.\nAFTER DARK.",
+      "width": 320
+    },
+    {
+      "covers": [
+        {
+          "alt": "Slayer — South of Heaven album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 215,
+          "loaded": true,
+          "width": 215
+        },
+        {
+          "alt": "Metallica — Ride the Lightning album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 80,
+          "loaded": true,
+          "width": 80
+        },
+        {
+          "alt": "Megadeth — Rust in Peace album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 80,
+          "loaded": true,
+          "width": 80
+        }
+      ],
+      "overflow": false,
+      "title": "THRASH.\nAFTER DARK.",
+      "width": 390
+    },
+    {
+      "covers": [
+        {
+          "alt": "Slayer — South of Heaven album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 225,
+          "loaded": true,
+          "width": 225
+        },
+        {
+          "alt": "Metallica — Ride the Lightning album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 80,
+          "loaded": true,
+          "width": 80
+        },
+        {
+          "alt": "Megadeth — Rust in Peace album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 80,
+          "loaded": true,
+          "width": 80
+        }
+      ],
+      "overflow": false,
+      "title": "THRASH.\nAFTER DARK.",
+      "width": 768
+    },
+    {
+      "covers": [
+        {
+          "alt": "Slayer — South of Heaven album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 341,
+          "loaded": true,
+          "width": 341
+        },
+        {
+          "alt": "Metallica — Ride the Lightning album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 125,
+          "loaded": true,
+          "width": 125
+        },
+        {
+          "alt": "Megadeth — Rust in Peace album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 125,
+          "loaded": true,
+          "width": 125
+        }
+      ],
+      "overflow": false,
+      "title": "THRASH.\nAFTER DARK.",
+      "width": 1024
+    },
+    {
+      "covers": [
+        {
+          "alt": "Slayer — South of Heaven album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 460,
+          "loaded": true,
+          "width": 460
+        },
+        {
+          "alt": "Metallica — Ride the Lightning album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 162,
+          "loaded": true,
+          "width": 162
+        },
+        {
+          "alt": "Megadeth — Rust in Peace album cover",
+          "filter": "none",
+          "fit": "contain",
+          "height": 162,
+          "loaded": true,
+          "width": 162
+        }
+      ],
+      "overflow": false,
+      "title": "THRASH.\nAFTER DARK.",
+      "width": 1440
+    }
+  ],
+  "motionChecks": {
+    "pauseStopsAnimatedLayers": true,
+    "pausePreferenceSurvivesReload": true,
+    "resumeUpdatesMotionState": true,
+    "cssTransformMovementObserved": true,
+    "osReducedMotionPreferenceDuringReview": false
+  },
+  "visualChecks": {
+    "displayFont": "Grenze Gotisch",
+    "bodyFont": "Barlow",
+    "recordSection": "rgba(12, 17, 27, 0.66)",
+    "whiteCoverMountRemoved": true,
+    "albumFilters": "none",
+    "albumFit": "contain",
+    "screenshot": "docs/previews/gothic-editorial-desktop.jpg"
+  },
+  "limits": [
+    "OS reduced-motion mode was not toggled; the CSS and media-query handlers are present.",
+    "No lab performance or complete accessibility conformance claim.",
+    "Production authentication and database features remain outside this design study."
+  ]
+}

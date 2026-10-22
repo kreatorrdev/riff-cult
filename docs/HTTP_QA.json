@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-21",
+  "base": "http://127.0.0.1:4318",
+  "conditions": "Single local production server on Windows; sequential HTTP checks, no simulated mobile network or field performance claim.",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "expected": 200,
+      "bytes": 57925,
+      "localResponseMs": 1714
+    },
+    {
+      "path": "/albums",
+      "status": 200,
+      "expected": 200,
+      "bytes": 51898,
+      "localResponseMs": 57
+    },
+    {
+      "path": "/albums?page=2",
+      "status": 200,
+      "expected": 200,
+      "bytes": 38818,
+      "localResponseMs": 42
+    },
+    {
+      "path": "/albums?genre=Symphonic&country=Finland",
+      "status": 200,
+      "expected": 200,
+      "bytes": 32816,
+      "localResponseMs": 41
+    },
+    {
+      "path": "/albums?q=missing-record-zz",
+      "status": 200,
+      "expected": 200,
+      "bytes": 30350,
+      "localResponseMs": 45
+    },
+    {
+      "path": "/albums/reign-in-blood",
+      "status": 200,
+      "expected": 200,
+      "bytes": 40150,
+      "localResponseMs": 43
+    },
+    {
+      "path": "/bands",
+      "status": 200,
+      "expected": 200,
+      "bytes": 28427,
+      "localResponseMs": 45
+    },
+    {
+      "path": "/bands/kreator",
+      "status": 200,
+      "expected": 200,
+      "bytes": 30050,
+      "localResponseMs": 27
+    },
+    {
+      "path": "/genres",
+      "status": 200,
+      "expected": 200,
+      "bytes": 30771,
+      "localResponseMs": 31
+    },
+    {
+      "path": "/genres/thrash",
+      "status": 200,
+      "expected": 200,
+      "bytes": 33997,
+      "localResponseMs": 28
+    },
+    {
+      "path": "/reviews",
+      "status": 200,
+      "expected": 200,
+      "bytes": 26427,
+      "localResponseMs": 35
+    },
+    {
+      "path": "/reviews/black-metal",
+      "status": 200,
+      "expected": 200,
+      "bytes": 28437,
+      "localResponseMs": 50
+    },
+    {
+      "path": "/lists",
+      "status": 200,
+      "expected": 200,
+      "bytes": 25662,
+      "localResponseMs": 25
+    },
+    {
+      "path": "/lists/after-dark",
+      "status": 200,
+      "expected": 200,
+      "bytes": 32450,
+      "localResponseMs": 36
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "expected": 200,
+      "bytes": 33170,
+      "localResponseMs": 22
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "expected": 200,
+      "bytes": 26253,
+      "localResponseMs": 18
+    },
+    {
+      "path": "/not-a-record",
+      "status": 404,
+      "expected": 404,
+      "bytes": 20234,
+      "localResponseMs": 23
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "expected": 200,
+      "bytes": 15,
+      "localResponseMs": 40
+    },
+    {
+      "path": "/api/vault",
+      "status": 401,
+      "expected": 401,
+      "bytes": 32,
+      "localResponseMs": 14
+    },
+    {
+      "path": "/the-vault",
+      "status": 307,
+      "redirect": "sign-in"
+    },
+    {
+      "path": "/settings",
+      "status": 307,
+      "redirect": "sign-in"
+    },
+    {
+      "path": "/admin",
+      "status": 307,
+      "redirect": "sign-in"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+import { z } from 'zod';
+const slug=z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/).max(100);
+const https=z.url().refine(value=>new URL(value).protocol==='https:','Use an HTTPS source URL.');
+export const albumInput=z.object({id:slug,bandId:slug,title:z.string().trim().min(1).max(160),year:z.number().int().min(1900).max(2100),genre:z.string().trim().min(1).max(100),note:z.string().trim().min(1).max(240),description:z.string().trim().min(30).max(12000),source:https,artwork:z.string().refine(value=>/^\/assets\/albums\/[a-z0-9-]+\.(jpg|png|webp)$/.test(value)||https.safeParse(value).success,'Choose an existing cover path or an HTTPS image URL.'),credit:z.string().trim().min(5).max(1000),tracks:z.array(z.string().trim().min(1).max(200)).max(100),status:z.enum(['draft','published'])}).strict();
+export const bandInput=z.object({id:slug,name:z.string().trim().min(1).max(100),country:z.string().trim().min(1).max(80),bio:z.string().trim().min(30).max(10000),source:https}).strict();
+export const storyInput=z.object({id:slug,kind:z.enum(['review','list']),title:z.string().trim().min(1).max(180),deck:z.string().trim().min(5).max(500),author:z.string().trim().min(1).max(100),body:z.array(z.string().trim().min(1).max(10000)).min(2).max(100),albumIds:z.array(slug).min(1).max(30),status:z.enum(['draft','published'])}).strict();
+export const placementInput=z.object({id:z.enum(['hero','rotation']),albumIds:z.array(slug).min(1).max(12)}).strict().refine(v=>v.id!=='hero'||v.albumIds.length===3,'The opening selection needs exactly three records.').refine(v=>new Set(v.albumIds).size===v.albumIds.length,'A selection cannot contain duplicate records.');
+export const collectionInput=z.object({albumId:slug,status:z.enum(['owned','wishlist'])}).strict();
+export function safeReturn(value:string|null|undefined){return value?.startsWith('/')&&!value.startsWith('//')&&!value.includes('\\')&&!/[\r\n]/.test(value)?value:'/the-vault';}

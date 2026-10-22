@@ -1,0 +1,373 @@
+{
+  "target": "E:\\portfolio\\riff_cult\\tmp\\riff-cult-demo",
+  "files": 90,
+  "bytes": 8155493,
+  "excludes": [
+    ".env.local",
+    ".data",
+    "node_modules",
+    ".git"
+  ],
+  "inventory": [
+    {
+      "path": ".vercelignore",
+      "bytes": 144
+    },
+    {
+      "path": "migrations/0001_initial.sql",
+      "bytes": 2915
+    },
+    {
+      "path": "migrations/0002_curated_rotation.sql",
+      "bytes": 4699
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 296
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 605
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 93478
+    },
+    {
+      "path": "package.json",
+      "bytes": 1390
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 60
+    },
+    {
+      "path": "public/assets/albums/agent-orange.jpg",
+      "bytes": 94270
+    },
+    {
+      "path": "public/assets/albums/black-metal.jpg",
+      "bytes": 98725
+    },
+    {
+      "path": "public/assets/albums/coma-of-souls.jpg",
+      "bytes": 180959
+    },
+    {
+      "path": "public/assets/albums/exorkizein.jpg",
+      "bytes": 136337
+    },
+    {
+      "path": "public/assets/albums/kill.jpg",
+      "bytes": 91511
+    },
+    {
+      "path": "public/assets/albums/once.jpg",
+      "bytes": 121505
+    },
+    {
+      "path": "public/assets/albums/paranoid.jpg",
+      "bytes": 8878
+    },
+    {
+      "path": "public/assets/albums/pleasure-to-kill.jpg",
+      "bytes": 35077
+    },
+    {
+      "path": "public/assets/albums/powerslave.jpg",
+      "bytes": 131250
+    },
+    {
+      "path": "public/assets/albums/reign-in-blood.jpg",
+      "bytes": 173996
+    },
+    {
+      "path": "public/assets/albums/ride-the-lightning.jpg",
+      "bytes": 95896
+    },
+    {
+      "path": "public/assets/albums/rust-in-peace.jpg",
+      "bytes": 282994
+    },
+    {
+      "path": "public/assets/albums/seven-churches.jpg",
+      "bytes": 58822
+    },
+    {
+      "path": "public/assets/albums/seventh-son-of-a-seventh-son.jpg",
+      "bytes": 114703
+    },
+    {
+      "path": "public/assets/albums/sources.json",
+      "bytes": 5453
+    },
+    {
+      "path": "public/assets/albums/south-of-heaven.jpg",
+      "bytes": 247602
+    },
+    {
+      "path": "public/assets/covers/paranoid.svg",
+      "bytes": 1533
+    },
+    {
+      "path": "public/assets/covers/pleasure-to-kill.svg",
+      "bytes": 1500
+    },
+    {
+      "path": "public/assets/covers/powerslave.svg",
+      "bytes": 1486
+    },
+    {
+      "path": "public/assets/covers/ride-the-lightning.svg",
+      "bytes": 1533
+    },
+    {
+      "path": "public/assets/covers/rust-in-peace.svg",
+      "bytes": 1567
+    },
+    {
+      "path": "public/assets/covers/south-of-heaven.svg",
+      "bytes": 1485
+    },
+    {
+      "path": "public/assets/favicon.svg",
+      "bytes": 232
+    },
+    {
+      "path": "public/assets/fonts/barlow-condensed-bold.ttf",
+      "bytes": 109912
+    },
+    {
+      "path": "public/assets/fonts/BARLOW-CONDENSED-OFL.txt",
+      "bytes": 4377
+    },
+    {
+      "path": "public/assets/fonts/barlow-medium.ttf",
+      "bytes": 103536
+    },
+    {
+      "path": "public/assets/fonts/BARLOW-OFL.txt",
+      "bytes": 4377
+    },
+    {
+      "path": "public/assets/fonts/barlow-regular.ttf",
+      "bytes": 104068
+    },
+    {
+      "path": "public/assets/fonts/GRENZE-GOTISCH-OFL.txt",
+      "bytes": 4402
+    },
+    {
+      "path": "public/assets/fonts/grenze-gotisch-variable.ttf",
+      "bytes": 193492
+    },
+    {
+      "path": "public/assets/gothic-abbey.png",
+      "bytes": 2682544
+    },
+    {
+      "path": "public/assets/underground-stage.png",
+      "bytes": 2710805
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 4090
+    },
+    {
+      "path": "scripts/database.ts",
+      "bytes": 1901
+    },
+    {
+      "path": "scripts/download-album-art.mjs",
+      "bytes": 1099
+    },
+    {
+      "path": "scripts/enrich-content.mjs",
+      "bytes": 1434
+    },
+    {
+      "path": "scripts/extract-content.mjs",
+      "bytes": 1412
+    },
+    {
+      "path": "scripts/prepare-assets.mjs",
+      "bytes": 5173
+    },
+    {
+      "path": "scripts/prepare-expanded-records.mjs",
+      "bytes": 3353
+    },
+    {
+      "path": "scripts/prepare-front-records.mjs",
+      "bytes": 3064
+    },
+    {
+      "path": "scripts/prepare-gothic-font.mjs",
+      "bytes": 691
+    },
+    {
+      "path": "scripts/prepare-vercel.mjs",
+      "bytes": 2304
+    },
+    {
+      "path": "scripts/preview.mjs",
+      "bytes": 1415
+    },
+    {
+      "path": "scripts/setup-local.mjs",
+      "bytes": 568
+    },
+    {
+      "path": "scripts/smoke-demo.mjs",
+      "bytes": 2880
+    },
+    {
+      "path": "scripts/smoke.mjs",
+      "bytes": 1716
+    },
+    {
+      "path": "scripts/source-album-art.mjs",
+      "bytes": 1476
+    },
+    {
+      "path": "scripts/stage-production.mjs",
+      "bytes": 505
+    },
+    {
+      "path": "scripts/start.mjs",
+      "bytes": 581
+    },
+    {
+      "path": "src/app/api/auth/[...all]/route.ts",
+      "bytes": 505
+    },
+    {
+      "path": "src/app/api/health/route.ts",
+      "bytes": 449
+    },
+    {
+      "path": "src/app/api/manage/[resource]/route.ts",
+      "bytes": 3949
+    },
+    {
+      "path": "src/app/api/vault/route.ts",
+      "bytes": 1677
+    },
+    {
+      "path": "src/app/error.tsx",
+      "bytes": 298
+    },
+    {
+      "path": "src/app/globals.css",
+      "bytes": 6098
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "bytes": 1651
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "bytes": 339
+    },
+    {
+      "path": "src/app/[[...slug]]/page.tsx",
+      "bytes": 5982
+    },
+    {
+      "path": "src/app-design.css",
+      "bytes": 73121
+    },
+    {
+      "path": "src/carousel.css",
+      "bytes": 5971
+    },
+    {
+      "path": "src/components/account.tsx",
+      "bytes": 4410
+    },
+    {
+      "path": "src/components/admin.tsx",
+      "bytes": 10001
+    },
+    {
+      "path": "src/components/featured-carousel.tsx",
+      "bytes": 4918
+    },
+    {
+      "path": "src/components/pages.tsx",
+      "bytes": 20395
+    },
+    {
+      "path": "src/components/runtime.tsx",
+      "bytes": 9454
+    },
+    {
+      "path": "src/components/ui.tsx",
+      "bytes": 3358
+    },
+    {
+      "path": "src/components/vault.tsx",
+      "bytes": 1997
+    },
+    {
+      "path": "src/content/artwork-sources.json",
+      "bytes": 5453
+    },
+    {
+      "path": "src/content/seed.json",
+      "bytes": 14371
+    },
+    {
+      "path": "src/content/selections.json",
+      "bytes": 260
+    },
+    {
+      "path": "src/gothic-design.css",
+      "bytes": 19822
+    },
+    {
+      "path": "src/lib/auth.ts",
+      "bytes": 1776
+    },
+    {
+      "path": "src/lib/data.ts",
+      "bytes": 2151
+    },
+    {
+      "path": "src/lib/db.ts",
+      "bytes": 4333
+    },
+    {
+      "path": "src/lib/demo-content.ts",
+      "bytes": 1321
+    },
+    {
+      "path": "src/lib/demo-vault.ts",
+      "bytes": 452
+    },
+    {
+      "path": "src/lib/deployment.ts",
+      "bytes": 598
+    },
+    {
+      "path": "src/lib/http.ts",
+      "bytes": 1620
+    },
+    {
+      "path": "src/lib/schema.ts",
+      "bytes": 3824
+    },
+    {
+      "path": "src/lib/validation.ts",
+      "bytes": 1935
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 760
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 168
+    }
+  ]
+}

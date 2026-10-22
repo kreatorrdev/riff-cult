@@ -1,0 +1,112 @@
+[
+  {
+    "id": "black-metal",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/8f/a0/64/8fa06407-2c2b-e697-88bf-e3b5085efda0/5414939528477.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/black-metal/1436231855",
+    "credit": "Venom / album artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/black-metal.jpg",
+    "bytes": 98725,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "exorkizein",
+    "url": "https://f4.bcbits.com/img/a1732209078_5.jpg",
+    "source": "https://ironboneheadproductions.bandcamp.com/album/possession-exorkizein",
+    "credit": "Possession / Iron Bonehead Productions / Invictus Productions and respective artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/exorkizein.jpg",
+    "bytes": 136337,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "powerslave",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/8a/c3/2f8ac34f-9e53-e4d3-c0be-195dee1a44ff/0881034134462.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/powerslave-2015-remaster/1713861278",
+    "credit": "Iron Maiden / album artwork rights holders. Artist credit pending verification.",
+    "local": "assets/albums/powerslave.jpg",
+    "bytes": 131250,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "paranoid",
+    "url": "https://blacksabbathcom.s3.amazonaws.com/content/discography/paranoid.jpg",
+    "source": "https://www.blacksabbath.com/discography.html",
+    "credit": "Black Sabbath / album artwork rights holders. Photographer credit pending verification.",
+    "local": "assets/albums/paranoid.jpg",
+    "bytes": 8878,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "seventh-son-of-a-seventh-son",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/e3/ce/89e3cef5-2cdb-fb65-bedd-b77460a98acd/0881034134493.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/seventh-son-of-a-seventh-son-2015-remaster/1716093955",
+    "credit": "Iron Maiden / album artwork rights holders. Artist credit pending verification.",
+    "local": "assets/albums/seventh-son-of-a-seventh-son.jpg",
+    "bytes": 114703,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "pleasure-to-kill",
+    "url": "https://www.nuclearblast.com/cdn/shop/files/Pleasure_to_Kill_2.jpg?v=1707819742&width=600",
+    "source": "https://www.nuclearblast.com/pages/album/pleasure-to-kill",
+    "credit": "Kreator / album artwork rights holders. Artist credit pending verification.",
+    "local": "assets/albums/pleasure-to-kill.jpg",
+    "bytes": 35077,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "reign-in-blood",
+    "url": "https://www.slayer.net/cdn/shop/files/1986_Reign_In_Blood_-_Cover_300RGB_1.jpg?v=1716303569",
+    "source": "https://www.slayer.net/products/reign-in-blood",
+    "credit": "Slayer / album artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/reign-in-blood.jpg",
+    "bytes": 173996,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "agent-orange",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/26/16/02/2616022a-ecad-4db2-743a-8fa51e2c9f2a/4001617057858.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/agent-orange/1675512622",
+    "credit": "Sodom / album artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/agent-orange.jpg",
+    "bytes": 94270,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "coma-of-souls",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3c/45/ea/3c45ea15-7e71-af42-bcad-86bd754072c5/4050538336511.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/coma-of-souls/1439115702",
+    "credit": "Kreator / album artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/coma-of-souls.jpg",
+    "bytes": 180959,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "kill",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/df/30/f5/df30f577-79d3-eca6-14ab-bfdc1b987e64/mzi.rdbzfcbm.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/kill/129322268",
+    "credit": "Cannibal Corpse / album artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/kill.jpg",
+    "bytes": 91511,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  },
+  {
+    "id": "once",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/bb/ea/20bbea8b-ba81-129f-e158-5bb6f8638128/cover.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/once/1460471435",
+    "credit": "Nightwish / album artwork rights holders. Complete creator credit before publication.",
+    "local": "assets/albums/once.jpg",
+    "bytes": 121505,
+    "use": "Local, unpublished design reference requested by the owner.",
+    "permission": "No publication license asserted. Confirm image use and complete credits before public release."
+  }
+]

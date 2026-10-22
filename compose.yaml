@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: riffcult
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a database password}
+      POSTGRES_DB: riffcult
+    volumes:
+      - riffcult-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U riffcult"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  web:
+    build: .
+    ports: ["127.0.0.1:4318:3000"]
+    environment:
+      DATABASE_URL: postgres://riffcult:${POSTGRES_PASSWORD}@postgres:5432/riffcult
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL:-http://127.0.0.1:4318}
+      BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET:?Set a random authentication secret}
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  riffcult-postgres:

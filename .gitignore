@@ -1,0 +1,11 @@
+node_modules/
+.env*
+!.env.example
+.preview-*.log
+tmp/
+.next/
+.data/
+.sites-runtime/
+*.tsbuildinfo
+test-results/
+.vercel/

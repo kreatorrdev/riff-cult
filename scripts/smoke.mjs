@@ -1,0 +1,8 @@
+import { writeFile } from 'node:fs/promises';
+const base=process.env.SMOKE_URL||'http://127.0.0.1:4318';
+const cases=[['/',200],['/albums',200],['/albums?page=2',200],['/albums?genre=Symphonic&country=Finland',200],['/albums?q=missing-record-zz',200],['/albums/reign-in-blood',200],['/bands',200],['/bands/kreator',200],['/genres',200],['/genres/thrash',200],['/reviews',200],['/reviews/black-metal',200],['/lists',200],['/lists/after-dark',200],['/about',200],['/privacy',200],['/not-a-record',404],['/api/health',200],['/api/vault',401]];
+const results=[];
+for(const [path,expected] of cases){const start=performance.now();const response=await fetch(base+path);const body=await response.text();const result={path,status:response.status,expected,bytes:Buffer.byteLength(body),localResponseMs:Math.round(performance.now()-start)};results.push(result);if(response.status!==expected||body.includes('Application error: a server-side exception'))throw new Error(`Smoke check failed: ${JSON.stringify(result)}`);}
+for(const path of ['/the-vault','/settings','/admin']){const response=await fetch(base+path,{redirect:'manual'});if(![303,307].includes(response.status)||!response.headers.get('location')?.startsWith('/sign-in'))throw new Error(`Account boundary failed: ${path}`);results.push({path,status:response.status,redirect:'sign-in'});}
+await writeFile(new URL('../docs/HTTP_QA.json',import.meta.url),JSON.stringify({date:'2026-10-21',base,conditions:'Single local production server on Windows; sequential HTTP checks, no simulated mobile network or field performance claim.',results},null,2)+'\n');
+console.log(`${results.length} public routes, error states, database health and anonymous access checks passed.`);

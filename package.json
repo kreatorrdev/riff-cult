@@ -1,0 +1,43 @@
+{
+  "name": "riff-cult",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RIFF CULT — independent metal journal, record archive and personal vault.",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 4318",
+    "build": "next build --webpack",
+    "postbuild": "node scripts/stage-production.mjs",
+    "start": "node scripts/start.mjs",
+    "check": "tsc --noEmit && node scripts/check.mjs",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
+    "test:smoke": "node scripts/smoke.mjs",
+    "db:migrate": "tsx scripts/database.ts migrate",
+    "db:seed": "tsx scripts/database.ts seed",
+    "db:complete": "tsx scripts/database.ts complete-content",
+    "admin:grant": "tsx scripts/database.ts grant",
+    "design": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "better-auth": "1.7.12",
+    "@better-auth/drizzle-adapter": "1.7.12",
+    "drizzle-orm": "0.45.4",
+    "@electric-sql/pglite": "0.5.11",
+    "pg": "^8.16.0",
+    "zod": "^4.0.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "tsx": "^4.20.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/pg": "^8.15.0"
+  },
+  "engines": { "node": ">=22" }
+}

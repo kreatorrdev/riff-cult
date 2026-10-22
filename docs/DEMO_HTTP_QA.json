@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-22",
+  "base": "https://riff-cult.vercel.app",
+  "conditions": "Portfolio demo; sequential route, retired-content and write-boundary checks.",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 48588
+    },
+    {
+      "path": "/albums",
+      "status": 200,
+      "bytes": 41831
+    },
+    {
+      "path": "/albums?page=2",
+      "status": 200,
+      "bytes": 30022
+    },
+    {
+      "path": "/albums?genre=Symphonic&country=Finland",
+      "status": 200,
+      "bytes": 28142
+    },
+    {
+      "path": "/albums?q=missing-record-zz",
+      "status": 200,
+      "bytes": 28178
+    },
+    {
+      "path": "/albums/reign-in-blood",
+      "status": 200,
+      "bytes": 34520
+    },
+    {
+      "path": "/bands",
+      "status": 200,
+      "bytes": 25761
+    },
+    {
+      "path": "/bands/kreator",
+      "status": 200,
+      "bytes": 26234
+    },
+    {
+      "path": "/genres",
+      "status": 200,
+      "bytes": 27167
+    },
+    {
+      "path": "/genres/thrash",
+      "status": 200,
+      "bytes": 29880
+    },
+    {
+      "path": "/reviews",
+      "status": 200,
+      "bytes": 24732
+    },
+    {
+      "path": "/reviews/black-metal",
+      "status": 200,
+      "bytes": 25719
+    },
+    {
+      "path": "/lists",
+      "status": 200,
+      "bytes": 23961
+    },
+    {
+      "path": "/lists/after-dark",
+      "status": 200,
+      "bytes": 29853
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "bytes": 30038
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "bytes": 23523
+    },
+    {
+      "path": "/not-a-record",
+      "status": 404,
+      "bytes": 18439
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "bytes": 39
+    },
+    {
+      "path": "/api/vault",
+      "status": 403,
+      "bytes": 116
+    },
+    {
+      "path": "/the-vault",
+      "status": 200,
+      "bytes": 23156
+    },
+    {
+      "path": "/settings",
+      "status": 200,
+      "bytes": 22519
+    },
+    {
+      "path": "/sign-in",
+      "status": 200,
+      "bytes": 22515
+    },
+    {
+      "path": "/admin",
+      "status": 200,
+      "bytes": 31131
+    },
+    {
+      "path": "/assets/albums/reign-in-blood.jpg",
+      "status": 200,
+      "bytes": 173996
+    },
+    {
+      "path": "/assets/gothic-abbey.png",
+      "status": 200,
+      "bytes": 2682544
+    },
+    {
+      "path": "/albums/seven-churches",
+      "status": 200,
+      "bytes": 34598
+    },
+    {
+      "path": "/bands/possessed",
+      "status": 200,
+      "bytes": 24753
+    },
+    {
+      "path": "/reviews/seven-churches",
+      "status": 200,
+      "bytes": 25767
+    },
+    {
+      "path": "/assets/albums/seven-churches.jpg",
+      "status": 200,
+      "bytes": 58822
+    },
+    {
+      "path": "/albums/exorkizein",
+      "status": 404,
+      "bytes": 18283
+    },
+    {
+      "path": "/albums/once",
+      "status": 404,
+      "bytes": 18271
+    },
+    {
+      "path": "/albums/paranoid",
+      "status": 404,
+      "bytes": 18279
+    },
+    {
+      "path": "/bands/nightwish",
+      "status": 404,
+      "bytes": 18442
+    },
+    {
+      "path": "/bands/black-sabbath",
+      "status": 404,
+      "bytes": 18450
+    },
+    {
+      "path": "/bands/possession",
+      "status": 404,
+      "bytes": 18444
+    },
+    {
+      "path": "/reviews/weight-of-the-riff",
+      "status": 404,
+      "bytes": 18292
+    },
+    {
+      "path": "/genres/symphonic",
+      "status": 404,
+      "bytes": 18445
+    },
+    {
+      "path": "/genres/doom",
+      "status": 404,
+      "bytes": 18435
+    },
+    {
+      "path": "/api/vault",
+      "method": "PUT",
+      "status": 403
+    },
+    {
+      "path": "/api/manage/placements",
+      "method": "POST",
+      "status": 403
+    },
+    {
+      "path": "/api/auth/sign-up/email",
+      "method": "POST",
+      "status": 403
+    }
+  ]
+}

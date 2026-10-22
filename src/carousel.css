@@ -1,0 +1,80 @@
+.gothic-hero.gothic-hero--carousel{grid-template-columns:minmax(245px,.62fr) minmax(0,1.5fr);gap:42px;min-height:570px;padding-block:40px 48px}
+.gothic-hero--carousel .gothic-lead h1{font-size:clamp(64px,6vw,88px)}
+.gothic-hero--carousel .gothic-deck{font-size:15px}
+.featured-carousel{min-width:0;width:100%;align-self:center}
+.carousel-heading{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #92909570;padding:0 0 17px;margin-bottom:24px;gap:15px}
+.carousel-heading .eyebrow{font-size:8px;letter-spacing:.13em;color:#dfd7cb}
+.carousel-counter{font:10px var(--mono);color:#e5c7b9;letter-spacing:.12em;white-space:nowrap}
+.carousel-stage{position:relative;width:100%;min-width:0;aspect-ratio:2/1;min-height:220px;touch-action:pan-y}
+.carousel-record{position:absolute;top:29px;width:31%;min-width:0;left:0;z-index:1;transition:left 650ms cubic-bezier(.22,.7,.25,1),width 650ms cubic-bezier(.22,.7,.25,1),top 650ms cubic-bezier(.22,.7,.25,1)}
+.carousel-record[data-position=active]{left:32%;top:0;width:36%;z-index:3}
+.carousel-record[data-position=next]{left:69%;z-index:2}
+.carousel-record-kicker{display:block;white-space:nowrap;font:7px/1.5 var(--mono);letter-spacing:.05em;color:#ccc6be;margin-bottom:10px}
+.carousel-record-kicker>span{color:#aaa7a3}
+.carousel-record[data-position=active] .carousel-record-kicker{color:#f0b59b}
+.carousel-sleeve{display:block;position:relative;background:#0e121c99;border:1px solid #8b8d9666;box-shadow:0 8px 24px #0008;transition:border-color 250ms,box-shadow 250ms}
+.carousel-sleeve img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;opacity:1;filter:none}
+.carousel-record[data-position=active] .carousel-sleeve{border-color:#d091796e;box-shadow:0 12px 35px #0009,0 0 0 3px #ac73531a}
+.carousel-sleeve:hover,.carousel-sleeve:focus-visible{border-color:var(--signal)}
+.carousel-caption{display:block;position:relative;padding:12px 20px 12px 10px;min-height:76px;background:#0c111bc2;border:1px solid #92909533;border-top:0}
+.carousel-band{display:block;font:8px/1.4 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:#d0c7bc;margin-bottom:5px;overflow-wrap:anywhere}
+.carousel-caption strong{display:block;font:clamp(19px,1.8vw,25px)/1.08 var(--display);color:var(--bone);overflow-wrap:break-word}
+.carousel-link-arrow{position:absolute;right:7px;top:11px;color:#d89782;font:15px var(--body)}
+.carousel-controls{display:flex;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid #92909566;padding-top:12px;margin-top:12px}
+.carousel-arrows{display:flex;gap:8px}
+.carousel-arrows button{display:grid;place-items:center;width:42px;height:42px;border:1px solid #b3a39380;background:#11162199;color:var(--bone);font:20px var(--body);transition:background 150ms}
+.carousel-arrows button:hover{background:#7e2832d9}
+.carousel-dots{display:flex;gap:3px}
+.carousel-dots button{display:grid;place-items:center;width:32px;height:42px}
+.carousel-dots button>span{height:5px;width:16px;background:#b1a99c66;transition:background 200ms,width 200ms}
+.carousel-dots button[aria-pressed=true]>span{background:#e5a18b;width:24px}
+.carousel-play{font:10px var(--mono);color:#dfd6cb;min-height:42px;min-width:76px;text-align:right;white-space:nowrap}
+.carousel-play:disabled{cursor:default;opacity:.65}
+.carousel-now{margin-top:10px;color:#c9c0b5;font:11px/1.6 var(--body);min-height:36px}
+.carousel-now .eyebrow{font-size:7px;color:#db9b85;margin-right:8px}
+.carousel-now>span[aria-hidden]{margin-inline:4px;color:#8c8985}
+[data-motion=paused] .carousel-record{transition:none}
+.carousel-stage[data-count="1"] .carousel-record{left:25%;width:50%;top:0}
+.carousel-stage[data-count="2"] .carousel-record{left:0;width:46%;top:15px}
+.carousel-stage[data-count="2"] .carousel-record[data-position=active]{left:51%;width:49%;top:0}
+@media(max-width:1050px){
+ .gothic-hero.gothic-hero--carousel{grid-template-columns:minmax(210px,.58fr) minmax(0,1.3fr);gap:28px;min-height:530px}
+ .gothic-hero--carousel .gothic-lead h1{font-size:65px}
+ .gothic-hero--carousel .gothic-lead>.eyebrow{font-size:8px;letter-spacing:.05em}
+ .carousel-stage{aspect-ratio:1.85/1;min-height:280px}
+ .carousel-caption{padding-inline:8px 16px;min-height:80px}
+ .carousel-caption strong{font-size:20px}
+ .carousel-band{font-size:7px}
+ .carousel-record-kicker{font-size:6px;letter-spacing:0}
+ .carousel-record-kicker>span{display:none}
+}
+@media(max-width:760px){
+ .gothic-hero.gothic-hero--carousel{display:flex;flex-direction:column;align-items:stretch;gap:0;min-height:0;padding-block:28px}
+ .gothic-hero--carousel .gothic-lead{display:contents}
+ .gothic-hero--carousel .gothic-lead>.eyebrow{order:0;align-self:flex-start;margin-bottom:18px}
+ .gothic-hero--carousel .gothic-lead h1{order:1;font-size:clamp(60px,12vw,85px);line-height:.96;margin-bottom:27px}
+ .featured-carousel{order:2}
+ .carousel-stage{min-height:215px}
+ .carousel-heading{margin-bottom:20px;padding-bottom:13px}
+ .carousel-heading .eyebrow{font-size:7px}
+ .carousel-record{top:22px}
+ .carousel-caption strong{font-size:clamp(18px,4vw,25px)}
+ .carousel-caption{min-height:72px}
+ .carousel-record-kicker{font-size:6px}
+ .carousel-record-kicker>span{display:inline}
+ .gothic-hero--carousel .gothic-deck{order:3;margin-top:24px;font-size:15px;max-width:100%}
+ .gothic-hero--carousel .gothic-actions{order:4}
+ .gothic-hero--carousel .gothic-folio{order:5;max-width:100%}
+ .gothic-hero--carousel .gothic-scene-caption{order:6;position:static;margin-top:18px}
+}
+@media(max-width:400px){
+ .carousel-record-kicker>span{display:none}
+ .carousel-caption{padding:9px 6px;min-height:70px}
+ .carousel-link-arrow{display:none}
+ .carousel-band{font-size:6px;letter-spacing:0}
+ .carousel-caption strong{font-size:19px}
+ .carousel-controls{gap:8px}
+ .carousel-play{font-size:9px;min-width:70px}
+ .carousel-dots button{width:27px}
+}
+@media(prefers-reduced-motion:reduce){.carousel-record,.carousel-dots button>span{transition:none}}

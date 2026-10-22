@@ -1,0 +1,42 @@
+[
+  {
+    "id": "black-metal",
+    "source": "https://itunes.apple.com/lookup?id=1436231855&entity=song",
+    "originalSequenceLength": 11
+  },
+  {
+    "id": "powerslave",
+    "source": "https://itunes.apple.com/lookup?id=1713861278&entity=song",
+    "originalSequenceLength": 8
+  },
+  {
+    "id": "seventh-son-of-a-seventh-son",
+    "source": "https://itunes.apple.com/lookup?id=1716093955&entity=song",
+    "originalSequenceLength": 8
+  },
+  {
+    "id": "agent-orange",
+    "source": "https://itunes.apple.com/lookup?id=1675512622&entity=song",
+    "originalSequenceLength": 9
+  },
+  {
+    "id": "coma-of-souls",
+    "source": "https://itunes.apple.com/lookup?id=1439115702&entity=song",
+    "originalSequenceLength": 10
+  },
+  {
+    "id": "kill",
+    "source": "https://itunes.apple.com/lookup?id=129322268&entity=song",
+    "originalSequenceLength": 13
+  },
+  {
+    "id": "pleasure-to-kill",
+    "source": "https://www.nuclearblast.com/pages/album/pleasure-to-kill",
+    "originalSequenceLength": 9
+  },
+  {
+    "id": "seven-churches",
+    "source": "https://itunes.apple.com/lookup?id=980777677&entity=song",
+    "originalSequenceLength": 10
+  }
+]
