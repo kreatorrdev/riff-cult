@@ -30,6 +30,8 @@ The deployment staging script creates a clean source package in `tmp/riff-cult-d
 
 Connect Vercel or authenticate its CLI, then deploy this project as Next.js. No Git provider is required for CLI deployment. The resulting project URL can be linked from a portfolio. A custom domain is optional.
 
+The source and English documentation are maintained in the private [kreatorrdev/riff-cult](https://github.com/kreatorrdev/riff-cult) repository. GitHub pushes and Vercel deployments are separate operations; automatic deployment from that repository has not been configured.
+
 The local checkout is linked to the existing `riff-cult` project in the owner's `kreatorrdev` scope. Future deployments should target that project explicitly:
 
 ```powershell

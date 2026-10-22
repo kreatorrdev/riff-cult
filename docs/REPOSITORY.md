@@ -2,6 +2,15 @@
 
 This private repository preserves the RIFF CULT application and its English documentation. The public portfolio demo is hosted separately on [Vercel](https://riff-cult.vercel.app).
 
+Repository: [kreatorrdev/riff-cult](https://github.com/kreatorrdev/riff-cult). GitHub access is restricted to the owner and explicitly authorized collaborators.
+
+```powershell
+git clone https://github.com/kreatorrdev/riff-cult.git
+cd riff-cult
+```
+
+Authenticate with an account that has repository access. Follow the [project README](../README.md) to run the demo or full application locally.
+
 ## Contents
 
 | Path | Purpose |
