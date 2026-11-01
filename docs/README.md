@@ -35,3 +35,7 @@ Source attribution is recorded separately from permission to redistribute third-
 ## Historical material
 
 The design studies, earlier QA files, `archive/`, reference images and earlier screenshots document the design process. The prototype in [`design/`](../design/) preserves an earlier catalog. These historical files are not the current site's source of content; use the latest application documents and [`src/content/`](../src/content/) for the deployed release.
+
+## Contributions
+
+See the [contribution guide](../CONTRIBUTING.md) for the development and review workflow.

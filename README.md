@@ -79,3 +79,7 @@ See [Vercel deployment](docs/VERCEL_DEPLOYMENT.md) for setup, demo behavior and 
 - [Repository contents and maintenance](docs/REPOSITORY.md)
 
 The old design prototype is retained in `design/`; run `npm run design` to review it on 4317. Its local-storage vault is separate from application accounts. Historical design documents and screenshots record earlier stages, not the current application's capabilities. All project documentation is maintained in English.
+
+## Maintaining this project
+
+See the [contribution guide](CONTRIBUTING.md) for setup, relevant checks, documentation and configuration rules.

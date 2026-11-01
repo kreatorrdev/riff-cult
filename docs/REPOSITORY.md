@@ -1,15 +1,18 @@
 # Repository guide
 
-This private repository preserves the RIFF CULT application and its English documentation. The public portfolio demo is hosted separately on [Vercel](https://riff-cult.vercel.app).
+> Source documentation review — 1 November 2026: the source repository is public. Earlier dated references to private source access describe the previous repository setting. Hosted access, private user data and historical verification retain their documented scope.
 
-Repository: [kreatorrdev/riff-cult](https://github.com/kreatorrdev/riff-cult). GitHub access is restricted to the owner and explicitly authorized collaborators.
+
+This public repository preserves the RIFF CULT application and its English documentation. The public portfolio demo is hosted separately on [Vercel](https://riff-cult.vercel.app).
+
+Repository: [kreatorrdev/riff-cult](https://github.com/kreatorrdev/riff-cult). The source can be read publicly; changes require the appropriate repository permissions.
 
 ```powershell
 git clone https://github.com/kreatorrdev/riff-cult.git
 cd riff-cult
 ```
 
-Authenticate with an account that has repository access. Follow the [project README](../README.md) to run the demo or full application locally.
+Follow the [project README](../README.md) to run the demo or full application locally.
 
 ## Contents
 
@@ -36,7 +39,7 @@ The Vercel deployment has a separate `.vercelignore` and allowlisted packaging w
 1. Make the source or documentation change locally.
 2. For application changes, run `npm run check` and `npm test`; build and inspect affected pages when appropriate.
 3. Review `git diff` and the staged file list. Keep environment values and databases outside Git.
-4. Commit with a descriptive English message and push to the private repository.
+4. Commit with a descriptive English message and push to the public repository.
 5. Deploy separately to the existing Vercel project when the website should change. A GitHub push alone is not configured to deploy this project automatically.
 
 See the [documentation index](README.md) for setup and deployment guides. Never edit an already-applied SQL migration; add a new numbered migration instead.
